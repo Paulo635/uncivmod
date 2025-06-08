@@ -1,0 +1,9 @@
+{
+  "name": "Guerra Inteligente - IA Seletiva",
+  "author": "SeuNome",
+  "version": "2.0",
+  "description": "IA que avalia alvos antes de declarar guerra",
+  "requires": "4.10.14",
+  "supported": ["4.10.14"],
+  "scripts": ["ModScripts/AIDecisionLogic.js"]
+}

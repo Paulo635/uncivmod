@@ -1,8 +1,0 @@
-{
-  "name": "WarSettings",
-  "aiAggression": 1.6,
-  "minPowerRatioForWar": 1.4,
-  "maxSimultaneousWars": 2,
-  "warCooldown": 15,
-  "allyEvaluationThreshold": 0.7
-}

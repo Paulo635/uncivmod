@@ -1,9 +1,0 @@
-{
-  "name": "AIEvaluationParams",
-  "militaryWeight": 0.6,
-  "economicWeight": 0.2,
-  "techWeight": 0.1,
-  "geographicWeight": 0.1,
-  "cityDefenseThreshold": 0.8,
-  "borderTensionMultiplier": 1.5
-}

@@ -1,0 +1,10 @@
+{
+  "name": "Estratégia Militar",
+  "cost": 120,
+  "uniques": [
+    "Desbloqueia [Batedor de Elite]",
+    "Todas as unidades ganham [+1] de visão",
+    "[+20]% de eficácia em reconhecimento para todas as unidades",
+    "Gera [Grande General] a cada 15 unidades inimigas eliminadas"
+  ]
+}

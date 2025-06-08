@@ -1,0 +1,14 @@
+{
+  "name": "Batedor de Elite",
+  "unitType": "Recon",
+  "strength": 8,
+  "movement": 4,
+  "cost": 50,
+  "sight": 5,
+  "uniques": [
+    "Invisível [exceto por unidades adjacentes]",
+    "Pode ver unidades [inimigas] em cidades",
+    "[+50]% Strength [ao defender]",
+    "Revela unidades inimigas em um raio de [3] hexágonos"
+  ]
+}

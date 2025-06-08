@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Coffee",
+    "type": "BonusResource",
+    "food": 1,
+    "gold": 3,
+    "terrainsCanBeFoundOn": [
+      "Hill"
+    ],
+    "improvement": "Plantation"
+  },
+  {
+    "name": "Rubber",
+    "type": "StrategicResource",
+    "production": 1,
+    "gold": 2,
+    "terrainsCanBeFoundOn": [
+      "Forest"
+    ],
+    "improvement": "Rubber Camp"
+  },
+  {
+    "name": "Sertão",
+    "type": "Terrain",
+    "food": -1,
+    "production": 1,
+    "defenseBonus": 25,
+    "uniques": [
+      "Units heal 50% slower here"
+    ]
+  }
+]

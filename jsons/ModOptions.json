@@ -1,0 +1,7 @@
+{
+  "isBaseRuleset": false,
+  "uniques": [
+    "City-states are replaced by [Favelas] (neutral cities)",
+    "Civil wars may occur if [Happiness] < 0 for 10 turns"
+  ]
+}

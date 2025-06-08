@@ -1,0 +1,312 @@
+[
+  {
+    "name": "São Paulo",
+    "leaderName": "Bandeirante",
+    "outerColor": [
+      0,
+      80,
+      20
+    ],
+    "innerColor": [
+      255,
+      223,
+      0
+    ],
+    "cityNames": [
+      "São Paulo",
+      "Campinas",
+      "Santos",
+      "Ribeirão Preto",
+      "Sorocaba"
+    ],
+    "uniqueUnits": [
+      "Bandeirante"
+    ],
+    "uniqueBuildings": [
+      "Fazenda de Café"
+    ],
+    "uniques": [
+      "+1 [Production] from [Hill] tiles",
+      "+2 [Gold] from [Coffee] resources"
+    ]
+  },
+  {
+    "name": "Rio de Janeiro",
+    "leaderName": "Rei Carioca",
+    "outerColor": [
+      0,
+      50,
+      200
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "cityNames": [
+      "Rio de Janeiro",
+      "Niterói",
+      "Petrópolis",
+      "Campos",
+      "Angra dos Reis"
+    ],
+    "uniqueUnits": [
+      "Sambista"
+    ],
+    "uniqueBuildings": [
+      "Cristo Redentor"
+    ],
+    "uniques": [
+      "+3 [Culture] from [Wonder] buildings",
+      "+1 [Happiness] from [Coast] tiles"
+    ]
+  },
+  {
+    "name": "Minas Gerais",
+    "leaderName": "Tiradentes",
+    "outerColor": [
+      255,
+      215,
+      0
+    ],
+    "innerColor": [
+      0,
+      0,
+      0
+    ],
+    "cityNames": [
+      "Belo Horizonte",
+      "Ouro Preto",
+      "Juiz de Fora",
+      "Montes Claros",
+      "Uberlândia"
+    ],
+    "uniqueUnits": [
+      "Inconfidente"
+    ],
+    "uniqueBuildings": [
+      "Mina de Ouro"
+    ],
+    "uniques": [
+      "+2 [Gold] from [Mountain] tiles",
+      "Defensive buildings cost -30% [Production]"
+    ]
+  },
+  {
+    "name": "Bahia",
+    "leaderName": "Coronel da Bahia",
+    "outerColor": [
+      0,
+      0,
+      139
+    ],
+    "innerColor": [
+      255,
+      255,
+      0
+    ],
+    "cityNames": [
+      "Salvador",
+      "Feira de Santana",
+      "Ilhéus",
+      "Juazeiro",
+      "Vitória da Conquista"
+    ],
+    "uniqueUnits": [
+      "Cangaceiro"
+    ],
+    "uniqueBuildings": [
+      "Senhor do Bonfim"
+    ],
+    "uniques": [
+      "+1 [Faith] from [Plantation] tiles",
+      "Units heal +10 HP in [Desert]"
+    ]
+  },
+  {
+    "name": "Rio Grande do Sul",
+    "leaderName": "General Farroupilha",
+    "outerColor": [
+      255,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "cityNames": [
+      "Porto Alegre",
+      "Pelotas",
+      "Caxias do Sul",
+      "Santa Maria",
+      "Rio Grande"
+    ],
+    "uniqueUnits": [
+      "Gaúcho"
+    ],
+    "uniqueBuildings": [
+      "Charqueada"
+    ],
+    "uniques": [
+      "+15% [Combat Strength] in [Grassland]",
+      "Cavalry units +1 [Movement]"
+    ]
+  },
+  {
+    "name": "Paraná",
+    "leaderName": "Tropeiro",
+    "outerColor": [
+      0,
+      100,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "cityNames": [
+      "Curitiba",
+      "Londrina",
+      "Maringá",
+      "Ponta Grossa",
+      "Cascavel"
+    ],
+    "uniqueUnits": [
+      "Tropeiro"
+    ],
+    "uniqueBuildings": [
+      "Mata de Araucária"
+    ],
+    "uniques": [
+      "+1 [Food] from [Forest] tiles",
+      "Trade routes generate +1 [Gold]"
+    ]
+  },
+  {
+    "name": "Pernambuco",
+    "leaderName": "Frei Caneca",
+    "outerColor": [
+      0,
+      0,
+      128
+    ],
+    "innerColor": [
+      255,
+      255,
+      0
+    ],
+    "cityNames": [
+      "Recife",
+      "Olinda",
+      "Caruaru",
+      "Petrolina",
+      "Garanhuns"
+    ],
+    "uniqueUnits": [
+      "Revolucionário"
+    ],
+    "uniqueBuildings": [
+      "Frevo School"
+    ],
+    "uniques": [
+      "+1 [Culture] per [Specialist]",
+      "Cities gain +10% [Production] when [Unhappy]"
+    ]
+  },
+  {
+    "name": "Ceará",
+    "leaderName": "Dragão do Mar",
+    "outerColor": [
+      0,
+      191,
+      255
+    ],
+    "innerColor": [
+      255,
+      255,
+      0
+    ],
+    "cityNames": [
+      "Fortaleza",
+      "Juazeiro do Norte",
+      "Sobral",
+      "Crato",
+      "Iguatu"
+    ],
+    "uniqueUnits": [
+      "Jangadeiro"
+    ],
+    "uniqueBuildings": [
+      "Beach Park"
+    ],
+    "uniques": [
+      "+1 [Food] from [Coast] tiles",
+      "Naval units cost -20% [Production]"
+    ]
+  },
+  {
+    "name": "Amazonas",
+    "leaderName": "Coronel da Borracha",
+    "outerColor": [
+      0,
+      100,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "cityNames": [
+      "Manaus",
+      "Parintins",
+      "Itacoatiara",
+      "Coari",
+      "Tefé"
+    ],
+    "uniqueUnits": [
+      "Seringueiro"
+    ],
+    "uniqueBuildings": [
+      "Teatro Amazonas"
+    ],
+    "uniques": [
+      "Ignore [Forest] movement penalty",
+      "+1 [Science] from [Jungle] tiles"
+    ]
+  },
+  {
+    "name": "Goiás",
+    "leaderName": "Boiadeiro",
+    "outerColor": [
+      255,
+      140,
+      0
+    ],
+    "innerColor": [
+      0,
+      0,
+      0
+    ],
+    "cityNames": [
+      "Goiânia",
+      "Anápolis",
+      "Rio Verde",
+      "Catalão",
+      "Jataí"
+    ],
+    "uniqueUnits": [
+      "Boiadeiro"
+    ],
+    "uniqueBuildings": [
+      "Fazenda de Soja"
+    ],
+    "uniques": [
+      "+1 [Food] from [Farm] tiles",
+      "+1 [Production] from [Cattle] resources"
+    ]
+  }
+]

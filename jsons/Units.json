@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Bandeirante",
+    "replaces": "Scout",
+    "cost": 25,
+    "strength": 12,
+    "movement": 3,
+    "uniques": [
+      "Ignores terrain cost",
+      "Can steal [20] [Gold] from enemy cities"
+    ]
+  },
+  {
+    "name": "Sambista",
+    "replaces": "Great Artist",
+    "cost": 80,
+    "uniques": [
+      "Can perform [Carnaval] action (+10 [Happiness] in all cities for 5 turns)"
+    ]
+  },
+  {
+    "name": "Inconfidente",
+    "replaces": "Rifleman",
+    "cost": 120,
+    "strength": 28,
+    "movement": 2,
+    "uniques": [
+      "+25% [Strength] when defending",
+      "Starts with [Drill I] promotion"
+    ]
+  },
+  {
+    "name": "Cangaceiro",
+    "replaces": "Rifleman",
+    "cost": 110,
+    "strength": 26,
+    "movement": 2,
+    "uniques": [
+      "+20% [Strength] in [Desert]",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Gaúcho",
+    "replaces": "Cavalry",
+    "cost": 150,
+    "strength": 34,
+    "movement": 4,
+    "uniques": [
+      "+1 [Movement] in [Grassland]",
+      "No defensive terrain bonuses"
+    ]
+  },
+  {
+    "name": "Tropeiro",
+    "replaces": "Horseman",
+    "cost": 60,
+    "strength": 12,
+    "movement": 4,
+    "uniques": [
+      "Can establish [Trade Route] without road",
+      "+1 [Gold] from [Hill] tiles"
+    ]
+  },
+  {
+    "name": "Revolucionário",
+    "replaces": "Great General",
+    "cost": 100,
+    "uniques": [
+      "Adjacent units gain +15% [Strength]",
+      "Can incite [Revolt] in enemy cities (-10 [Happiness])"
+    ]
+  },
+  {
+    "name": "Jangadeiro",
+    "replaces": "Trireme",
+    "cost": 40,
+    "strength": 10,
+    "movement": 4,
+    "uniques": [
+      "+1 [Sight]",
+      "Can enter ocean tiles"
+    ]
+  },
+  {
+    "name": "Seringueiro",
+    "replaces": "Worker",
+    "cost": 50,
+    "movement": 2,
+    "uniques": [
+      "Can build [Rubber Camp] improvement",
+      "+25% [Production] speed in [Forest]"
+    ]
+  },
+  {
+    "name": "Boiadeiro",
+    "replaces": "Horseman",
+    "cost": 70,
+    "strength": 14,
+    "movement": 3,
+    "uniques": [
+      "Heals +5 HP per turn in [Grassland]",
+      "+1 [Food] from [Pasture] tiles"
+    ]
+  }
+]

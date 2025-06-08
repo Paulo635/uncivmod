@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Guerrilha Urbana",
+    "uniques": [
+      "+25% [Strength] when attacking [City] units"
+    ]
+  },
+  {
+    "name": "Sertanejo",
+    "uniques": [
+      "Ignores [Desert] movement penalty",
+      "+20% [Strength] in [Desert]"
+    ]
+  }
+]

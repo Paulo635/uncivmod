@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ciclo do Café",
+    "cost": 200,
+    "prerequisites": [
+      "Economics"
+    ],
+    "uniques": [
+      "Reveals [Coffee] resource on [Hill] tiles"
+    ]
+  },
+  {
+    "name": "Revolta da Vacina",
+    "cost": 150,
+    "prerequisites": [
+      "Biology"
+    ],
+    "uniques": [
+      "May spawn [Rebel] units in cities with [Unhappiness]"
+    ]
+  }
+]

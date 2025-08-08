@@ -1,0 +1,21 @@
+2025-08-08 01:39:04 - site_analyzer - INFO - Starting analysis for search term: 'loja de roupas online'
+2025-08-08 01:39:04 - site_analyzer - INFO - Searching SerpApi for: 'loja de roupas online'
+2025-08-08 01:39:05 - site_analyzer - INFO - Found 10 organic results
+2025-08-08 01:39:05 - site_analyzer - INFO - ✅ Filtered to 10 relevant URLs
+2025-08-08 01:39:05 - site_analyzer - INFO - Found 10 URLs from 10 domains
+2025-08-08 01:39:05 - site_analyzer - INFO - Analyzing 10 URLs...
+2025-08-08 01:39:07 - site_analyzer - INFO - ✅ www.oqvestir.com.br - Gateways: [] - Security: []
+2025-08-08 01:39:07 - site_analyzer - INFO - ✅ www.marisa.com.br - Gateways: ['Rede', 'PayPal', 'Square'] - Security: ['reCAPTCHA v3', 'Rate Limiting']
+2025-08-08 01:39:08 - site_analyzer - INFO - ✅ www.zattini.com.br - Gateways: ['Stripe'] - Security: []
+2025-08-08 01:39:08 - site_analyzer - WARNING - HTTP error for URL: https://www.bershka.com/pt/ - 403 Client Error: Forbidden for url: https://www.bershka.com/pt/
+2025-08-08 01:39:08 - site_analyzer - WARNING - ❌ www.bershka.com - Could not fetch URL
+2025-08-08 01:39:08 - site_analyzer - INFO - ✅ br.privalia.com - Gateways: ['PayPal'] - Security: ['reCAPTCHA v2', 'reCAPTCHA v3', 'reCAPTCHA Enterprise', 'Cloudflare']
+2025-08-08 01:39:09 - site_analyzer - INFO - ✅ www.dafiti.com.br - Gateways: ['Rede', 'Boleto Bancário', 'Stripe', 'Square'] - Security: ['reCAPTCHA v3', 'Cloudflare']
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ www.shop2gether.com.br - Gateways: ['Rede', 'Boleto Bancário', 'PayPal', '2Checkout'] - Security: []
+2025-08-08 01:39:10 - site_analyzer - WARNING - HTTP error for URL: https://paconcept.com.br/ - 403 Client Error: Forbidden for url: https://paconcept.com.br/
+2025-08-08 01:39:10 - site_analyzer - WARNING - ❌ paconcept.com.br - Could not fetch URL
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ www.youcom.com.br - Gateways: ['Rede'] - Security: ['Akamai']
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ br.shein.com - Gateways: ['Mercado Pago', 'Boleto Bancário', 'PayPal', 'Square', 'Adyen', 'Worldpay'] - Security: ['Cloudflare', 'Akamai']
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ Analysis complete! Successfully analyzed 8/10 URLs
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ Results saved to site_analysis_loja_de_roupas_online_20250808_013910.json
+2025-08-08 01:39:10 - site_analyzer - INFO - ✅ Results saved to site_analysis_loja_de_roupas_online_20250808_013910.csv

@@ -1,0 +1,698 @@
+{
+  "search_term": "loja de roupas online",
+  "total_urls": 10,
+  "analyzed_urls": 8,
+  "results": [
+    {
+      "url": "https://www.oqvestir.com.br/?srsltid=AfmBOorBd0Yp1ACZmgV5v4fk_gSbLSMqCL4sj2UMeaxDNgn_1E_9i9x0",
+      "domain": "www.oqvestir.com.br",
+      "status": "success",
+      "gateways": [],
+      "security_mechanisms": [],
+      "security_headers": {
+        "total_security_headers": 4,
+        "present_headers": {
+          "Content-Security-Policy": "frame-ancestors 'self';",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains ; preload",
+          "Permissions-Policy": "accelerometer=(self), ambient-light-sensor=(self), camera=(self), magnetometer=(self), microphone=(self), payment=(self)"
+        },
+        "missing_headers": [
+          "X-Frame-Options",
+          "X-XSS-Protection",
+          "Referrer-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 50.0
+      },
+      "server_info": {
+        "Server": "Kestrel",
+        "X-Powered-By": "Wake"
+      },
+      "response_size": 37755,
+      "status_code": 200
+    },
+    {
+      "url": "https://www.marisa.com.br/",
+      "domain": "www.marisa.com.br",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Rede",
+          "evidence": [
+            "Keyword: rede"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "PayPal",
+          "evidence": [
+            "Keyword: paypal"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Square",
+          "evidence": [
+            "CSS Class: square",
+            "Keyword: square"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "security_mechanisms": [
+        {
+          "name": "reCAPTCHA v3",
+          "evidence": [
+            "Element: data-action"
+          ],
+          "confidence": "low",
+          "category": "captcha"
+        },
+        {
+          "name": "Rate Limiting",
+          "evidence": [
+            "Keyword: too many requests"
+          ],
+          "confidence": "low",
+          "category": "rate_limiting"
+        }
+      ],
+      "security_headers": {
+        "total_security_headers": 4,
+        "present_headers": {
+          "X-Frame-Options": "https://my333408.crm.ondemand.com/",
+          "X-XSS-Protection": "1; mode=block",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=0"
+        },
+        "missing_headers": [
+          "Content-Security-Policy",
+          "Referrer-Policy",
+          "Permissions-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 50.0
+      },
+      "server_info": {
+        "Server": "nginx/1.21.3"
+      },
+      "response_size": 456156,
+      "status_code": 200
+    },
+    {
+      "url": "https://www.zattini.com.br/",
+      "domain": "www.zattini.com.br",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Stripe",
+          "evidence": [
+            "CSS Class: stripe",
+            "Keyword: stripe"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "security_mechanisms": [],
+      "security_headers": {
+        "total_security_headers": 1,
+        "present_headers": {
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+        },
+        "missing_headers": [
+          "Content-Security-Policy",
+          "X-Frame-Options",
+          "X-XSS-Protection",
+          "X-Content-Type-Options",
+          "Referrer-Policy",
+          "Permissions-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 12.5
+      },
+      "server_info": {
+        "Server": "nginx/1.27.5",
+        "X-Powered-By": "Express"
+      },
+      "response_size": 305593,
+      "status_code": 200
+    },
+    {
+      "url": "https://www.bershka.com/pt/",
+      "domain": "www.bershka.com",
+      "status": "failed",
+      "error": "Could not fetch URL",
+      "gateways": [],
+      "security_mechanisms": [],
+      "security_headers": {}
+    },
+    {
+      "url": "https://br.privalia.com/",
+      "domain": "br.privalia.com",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "PayPal",
+          "evidence": [
+            "Keyword: paypal"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "security_mechanisms": [
+        {
+          "name": "reCAPTCHA v2",
+          "evidence": [
+            "Script: google\\.com/recaptcha",
+            "Element: g-recaptcha",
+            "Keyword: recaptcha"
+          ],
+          "confidence": "high",
+          "category": "captcha"
+        },
+        {
+          "name": "reCAPTCHA v3",
+          "evidence": [
+            "Script: google\\.com/recaptcha.*render",
+            "Element: data-action",
+            "Keyword: recaptcha"
+          ],
+          "confidence": "high",
+          "category": "captcha"
+        },
+        {
+          "name": "reCAPTCHA Enterprise",
+          "evidence": [
+            "Script: recaptcha.*enterprise"
+          ],
+          "confidence": "low",
+          "category": "captcha"
+        },
+        {
+          "name": "Cloudflare",
+          "evidence": [
+            "Header: cf-ray",
+            "Header: cf-cache-status"
+          ],
+          "confidence": "medium",
+          "category": "waf"
+        }
+      ],
+      "security_headers": {
+        "total_security_headers": 0,
+        "present_headers": {},
+        "missing_headers": [
+          "Content-Security-Policy",
+          "X-Frame-Options",
+          "X-XSS-Protection",
+          "X-Content-Type-Options",
+          "Strict-Transport-Security",
+          "Referrer-Policy",
+          "Permissions-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 0.0
+      },
+      "server_info": {
+        "Server": "cloudflare",
+        "CF-Ray": "96bb4c586cd2659c-PDX",
+        "CF-Cache-Status": "HIT"
+      },
+      "response_size": 118275,
+      "status_code": 200
+    },
+    {
+      "url": "https://www.dafiti.com.br/roupas/",
+      "domain": "www.dafiti.com.br",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Rede",
+          "evidence": [
+            "Keyword: rede"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Boleto Bancário",
+          "evidence": [
+            "Keyword: boleto"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Stripe",
+          "evidence": [
+            "Keyword: stripe"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Square",
+          "evidence": [
+            "CSS Class: square",
+            "Keyword: square"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "security_mechanisms": [
+        {
+          "name": "reCAPTCHA v3",
+          "evidence": [
+            "Element: data-action"
+          ],
+          "confidence": "low",
+          "category": "captcha"
+        },
+        {
+          "name": "Cloudflare",
+          "evidence": [
+            "Script: cloudflare\\.com",
+            "Keyword: cloudflare"
+          ],
+          "confidence": "medium",
+          "category": "waf"
+        }
+      ],
+      "security_headers": {
+        "total_security_headers": 4,
+        "present_headers": {
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-XSS-Protection": "1; mode=block, 1; mode=block",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+        },
+        "missing_headers": [
+          "Content-Security-Policy",
+          "Referrer-Policy",
+          "Permissions-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 50.0
+      },
+      "server_info": {
+        "Server": "nginx"
+      },
+      "response_size": 1339586,
+      "status_code": 200
+    },
+    {
+      "url": "https://www.shop2gether.com.br/",
+      "domain": "www.shop2gether.com.br",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Rede",
+          "evidence": [
+            "Keyword: rede"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Boleto Bancário",
+          "evidence": [
+            "Script: boleto",
+            "Keyword: boleto"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "name": "PayPal",
+          "evidence": [
+            "Keyword: paypal"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "2Checkout",
+          "evidence": [
+            "Keyword: 2co"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "security_mechanisms": [],
+      "security_headers": {
+        "total_security_headers": 4,
+        "present_headers": {
+          "Content-Security-Policy": "frame-ancestors 'self';",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains ; preload",
+          "Permissions-Policy": "accelerometer=(self), ambient-light-sensor=(self), camera=(self), magnetometer=(self), microphone=(self), payment=(self)"
+        },
+        "missing_headers": [
+          "X-Frame-Options",
+          "X-XSS-Protection",
+          "Referrer-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 50.0
+      },
+      "server_info": {
+        "Server": "Kestrel",
+        "X-Powered-By": "Wake"
+      },
+      "response_size": 286206,
+      "status_code": 200
+    },
+    {
+      "url": "https://paconcept.com.br/",
+      "domain": "paconcept.com.br",
+      "status": "failed",
+      "error": "Could not fetch URL",
+      "gateways": [],
+      "security_mechanisms": [],
+      "security_headers": {}
+    },
+    {
+      "url": "https://www.youcom.com.br/?srsltid=AfmBOor9PwIjg39g_9zSNnuX9V5NvQh4Gsrs331pz2X5xN1So8vzOGum",
+      "domain": "www.youcom.com.br",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Rede",
+          "evidence": [
+            "Keyword: rede"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "security_mechanisms": [
+        {
+          "name": "Akamai",
+          "evidence": [
+            "Keyword: akamai"
+          ],
+          "confidence": "low",
+          "category": "waf"
+        }
+      ],
+      "security_headers": {
+        "total_security_headers": 5,
+        "present_headers": {
+          "Content-Security-Policy": "upgrade-insecure-requests",
+          "X-Frame-Options": "Sameorigin",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+          "Permissions-Policy": "geolocation=(self)"
+        },
+        "missing_headers": [
+          "X-XSS-Protection",
+          "Referrer-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 62.5
+      },
+      "server_info": {},
+      "response_size": 201028,
+      "status_code": 200
+    },
+    {
+      "url": "https://br.shein.com/",
+      "domain": "br.shein.com",
+      "status": "success",
+      "gateways": [
+        {
+          "name": "Mercado Pago",
+          "evidence": [
+            "Keyword: mercadopago"
+          ],
+          "confidence": "low"
+        },
+        {
+          "name": "Boleto Bancário",
+          "evidence": [
+            "Script: boleto",
+            "Script: bb.*boleto",
+            "Keyword: boleto"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "PayPal",
+          "evidence": [
+            "Script: paypal.*checkout",
+            "Script: paypal.*button",
+            "Keyword: paypal"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Square",
+          "evidence": [
+            "Script: square.*checkout",
+            "Script: square.*js",
+            "Keyword: square"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Adyen",
+          "evidence": [
+            "Script: adyen.*checkout",
+            "Keyword: adyen"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "name": "Worldpay",
+          "evidence": [
+            "Keyword: worldpay"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "security_mechanisms": [
+        {
+          "name": "Cloudflare",
+          "evidence": [
+            "Keyword: cloudflare"
+          ],
+          "confidence": "low",
+          "category": "waf"
+        },
+        {
+          "name": "Akamai",
+          "evidence": [
+            "Script: akamai.*",
+            "Keyword: akamai"
+          ],
+          "confidence": "medium",
+          "category": "waf"
+        }
+      ],
+      "security_headers": {
+        "total_security_headers": 5,
+        "present_headers": {
+          "Content-Security-Policy": "frame-ancestors *.shein.com https://www.shein.com.hk https://www.shein.com.vn https://www.shein.com.mx https://www.shein.co.uk https://www.shein.tw https://www.shein.se https://co.shein.com https://www.shein.com.co",
+          "X-XSS-Protection": "1; mode=block",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=7776000000; includeSubDomains",
+          "Referrer-Policy": "no-referrer-when-downgrade"
+        },
+        "missing_headers": [
+          "X-Frame-Options",
+          "Permissions-Policy",
+          "Feature-Policy"
+        ],
+        "security_score": 62.5
+      },
+      "server_info": {
+        "Server": "openresty"
+      },
+      "response_size": 1176670,
+      "status_code": 200
+    }
+  ],
+  "summary": {
+    "total_analyzed": 8,
+    "total_failed": 2,
+    "success_rate": 80.0,
+    "gateway_summary": {
+      "total_gateways": 20,
+      "gateway_names": [
+        "Rede",
+        "PayPal",
+        "Square",
+        "Stripe",
+        "PayPal",
+        "Rede",
+        "Boleto Bancário",
+        "Stripe",
+        "Square",
+        "Rede",
+        "Boleto Bancário",
+        "PayPal",
+        "2Checkout",
+        "Rede",
+        "Mercado Pago",
+        "Boleto Bancário",
+        "PayPal",
+        "Square",
+        "Adyen",
+        "Worldpay"
+      ],
+      "confidence_distribution": {
+        "high": 3,
+        "medium": 5,
+        "low": 12
+      },
+      "categories": {
+        "brazilian": 8,
+        "international": 12,
+        "crypto": 0
+      }
+    },
+    "security_summary": {
+      "total_mechanisms": 11,
+      "mechanism_names": [
+        "reCAPTCHA v3",
+        "Rate Limiting",
+        "reCAPTCHA v2",
+        "reCAPTCHA v3",
+        "reCAPTCHA Enterprise",
+        "Cloudflare",
+        "reCAPTCHA v3",
+        "Cloudflare",
+        "Akamai",
+        "Cloudflare",
+        "Akamai"
+      ],
+      "confidence_distribution": {
+        "high": 2,
+        "medium": 3,
+        "low": 6
+      },
+      "categories": {
+        "captcha": 5,
+        "waf": 5,
+        "bot_detection": 0,
+        "rate_limiting": 1,
+        "other": 0
+      }
+    },
+    "top_domains": {
+      "br.shein.com": {
+        "gateways": [
+          "Mercado Pago",
+          "Boleto Bancário",
+          "PayPal",
+          "Square",
+          "Adyen",
+          "Worldpay"
+        ],
+        "security": [
+          "Cloudflare",
+          "Akamai"
+        ],
+        "gateway_count": 6,
+        "security_count": 2
+      },
+      "www.dafiti.com.br": {
+        "gateways": [
+          "Rede",
+          "Boleto Bancário",
+          "Stripe",
+          "Square"
+        ],
+        "security": [
+          "reCAPTCHA v3",
+          "Cloudflare"
+        ],
+        "gateway_count": 4,
+        "security_count": 2
+      },
+      "www.marisa.com.br": {
+        "gateways": [
+          "Rede",
+          "PayPal",
+          "Square"
+        ],
+        "security": [
+          "reCAPTCHA v3",
+          "Rate Limiting"
+        ],
+        "gateway_count": 3,
+        "security_count": 2
+      },
+      "br.privalia.com": {
+        "gateways": [
+          "PayPal"
+        ],
+        "security": [
+          "reCAPTCHA v2",
+          "reCAPTCHA v3",
+          "reCAPTCHA Enterprise",
+          "Cloudflare"
+        ],
+        "gateway_count": 1,
+        "security_count": 4
+      },
+      "www.shop2gether.com.br": {
+        "gateways": [
+          "Rede",
+          "Boleto Bancário",
+          "PayPal",
+          "2Checkout"
+        ],
+        "security": [],
+        "gateway_count": 4,
+        "security_count": 0
+      },
+      "www.youcom.com.br": {
+        "gateways": [
+          "Rede"
+        ],
+        "security": [
+          "Akamai"
+        ],
+        "gateway_count": 1,
+        "security_count": 1
+      },
+      "www.zattini.com.br": {
+        "gateways": [
+          "Stripe"
+        ],
+        "security": [],
+        "gateway_count": 1,
+        "security_count": 0
+      },
+      "www.oqvestir.com.br": {
+        "gateways": [],
+        "security": [],
+        "gateway_count": 0,
+        "security_count": 0
+      }
+    },
+    "failure_reasons": [
+      "Could not fetch URL",
+      "Could not fetch URL"
+    ]
+  },
+  "search_summary": {
+    "total_results": 10,
+    "unique_domains": 10,
+    "domains": [
+      "paconcept.com.br",
+      "br.privalia.com",
+      "www.dafiti.com.br",
+      "www.zattini.com.br",
+      "www.bershka.com",
+      "br.shein.com",
+      "www.youcom.com.br",
+      "www.shop2gether.com.br",
+      "www.oqvestir.com.br",
+      "www.marisa.com.br"
+    ],
+    "sample_urls": [
+      "https://www.zattini.com.br/",
+      "https://www.marisa.com.br/",
+      "https://www.oqvestir.com.br/?srsltid=AfmBOorBd0Yp1ACZmgV5v4fk_gSbLSMqCL4sj2UMeaxDNgn_1E_9i9x0",
+      "https://br.privalia.com/",
+      "https://www.dafiti.com.br/roupas/"
+    ]
+  },
+  "timestamp": "2025-08-08T01:39:10.939852"
+}

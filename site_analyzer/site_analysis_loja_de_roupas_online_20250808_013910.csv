@@ -1,0 +1,11 @@
+url,domain,status,gateways,security_mechanisms,gateway_count,security_count,security_score
+https://www.oqvestir.com.br/?srsltid=AfmBOorBd0Yp1ACZmgV5v4fk_gSbLSMqCL4sj2UMeaxDNgn_1E_9i9x0,www.oqvestir.com.br,success,,,0,0,50.0
+https://www.marisa.com.br/,www.marisa.com.br,success,"Rede, PayPal, Square","reCAPTCHA v3, Rate Limiting",3,2,50.0
+https://www.zattini.com.br/,www.zattini.com.br,success,Stripe,,1,0,12.5
+https://www.bershka.com/pt/,www.bershka.com,failed,,,0,0,0
+https://br.privalia.com/,br.privalia.com,success,PayPal,"reCAPTCHA v2, reCAPTCHA v3, reCAPTCHA Enterprise, Cloudflare",1,4,0.0
+https://www.dafiti.com.br/roupas/,www.dafiti.com.br,success,"Rede, Boleto Bancário, Stripe, Square","reCAPTCHA v3, Cloudflare",4,2,50.0
+https://www.shop2gether.com.br/,www.shop2gether.com.br,success,"Rede, Boleto Bancário, PayPal, 2Checkout",,4,0,50.0
+https://paconcept.com.br/,paconcept.com.br,failed,,,0,0,0
+https://www.youcom.com.br/?srsltid=AfmBOor9PwIjg39g_9zSNnuX9V5NvQh4Gsrs331pz2X5xN1So8vzOGum,www.youcom.com.br,success,Rede,Akamai,1,1,62.5
+https://br.shein.com/,br.shein.com,success,"Mercado Pago, Boleto Bancário, PayPal, Square, Adyen, Worldpay","Cloudflare, Akamai",6,2,62.5

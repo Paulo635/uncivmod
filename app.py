@@ -176,4 +176,9 @@ def handle_disconnect():
     print('Cliente desconectado via WebSocket')
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    print("🚀 Iniciando Email Client...")
+    print("📧 Email: chrissi-x@t-online.de")
+    print("🔗 Servidor IMAP: secureimap.t-online.de")
+    print("🌐 Interface: http://0.0.0.0:5000")
+    print("=" * 50)
+    socketio.run(app, debug=True, host='0.0.0.0', port=5000, allow_unsafe_werkzeug=True)

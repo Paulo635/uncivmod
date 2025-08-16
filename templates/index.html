@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Client - IMAP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Screen -->
+        <div id="loginScreen" class="login-screen">
+            <div class="login-card">
+                <div class="login-header">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h1>Email Client</h1>
+                    <p>Conecte-se ao seu servidor IMAP</p>
+                </div>
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required placeholder="Sua senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="imapServer">Servidor IMAP</label>
+                        <input type="text" id="imapServer" name="imapServer" value="imap.gmail.com" placeholder="imap.gmail.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Conectar
+                    </button>
+                </form>
+                <div class="login-help">
+                    <p><strong>Servidores populares:</strong></p>
+                    <ul>
+                        <li>Gmail: imap.gmail.com</li>
+                        <li>Outlook: outlook.office365.com</li>
+                        <li>Yahoo: imap.mail.yahoo.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email Interface -->
+        <div id="emailInterface" class="email-interface" style="display: none;">
+            <!-- Header -->
+            <header class="email-header">
+                <div class="header-left">
+                    <h1><i class="fas fa-envelope"></i> Email Client</h1>
+                    <span id="connectionStatus" class="status-badge online">
+                        <i class="fas fa-circle"></i> Conectado
+                    </span>
+                </div>
+                <div class="header-right">
+                    <button id="refreshBtn" class="btn btn-secondary">
+                        <i class="fas fa-sync-alt"></i> Atualizar
+                    </button>
+                    <button id="logoutBtn" class="btn btn-danger">
+                        <i class="fas fa-sign-out-alt"></i> Sair
+                    </button>
+                </div>
+            </header>
+
+            <div class="email-content">
+                <!-- Sidebar -->
+                <aside class="email-sidebar">
+                    <div class="sidebar-section">
+                        <h3>Pastas</h3>
+                        <ul id="foldersList" class="folders-list">
+                            <li class="folder-item active" data-folder="INBOX">
+                                <i class="fas fa-inbox"></i> Caixa de Entrada
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-section">
+                        <h3>Estatísticas</h3>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Total de emails:</span>
+                                <span id="totalEmails" class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Não lidos:</span>
+                                <span id="unreadEmails" class="stat-value">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="email-main">
+                    <div class="email-list-container">
+                        <div class="email-list-header">
+                            <h2 id="currentFolder">Caixa de Entrada</h2>
+                            <div class="email-controls">
+                                <input type="text" id="searchInput" placeholder="Buscar emails..." class="search-input">
+                                <select id="emailLimit" class="limit-select">
+                                    <option value="10">10 emails</option>
+                                    <option value="25">25 emails</option>
+                                    <option value="50" selected>50 emails</option>
+                                    <option value="100">100 emails</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div id="emailList" class="email-list">
+                            <!-- Emails serão carregados aqui -->
+                        </div>
+                    </div>
+
+                    <!-- Email Detail -->
+                    <div id="emailDetail" class="email-detail" style="display: none;">
+                        <div class="email-detail-header">
+                            <button id="closeDetail" class="btn btn-icon">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="email-detail-content">
+                            <div class="email-detail-subject" id="detailSubject"></div>
+                            <div class="email-detail-meta">
+                                <div class="meta-item">
+                                    <strong>De:</strong> <span id="detailFrom"></span>
+                                </div>
+                                <div class="meta-item">
+                                    <strong>Data:</strong> <span id="detailDate"></span>
+                                </div>
+                            </div>
+                            <div class="email-detail-body" id="detailBody"></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i>
+                <p>Carregando...</p>
+            </div>
+        </div>
+
+        <!-- Notification -->
+        <div id="notification" class="notification" style="display: none;">
+            <i class="fas fa-info-circle"></i>
+            <span id="notificationMessage"></span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
